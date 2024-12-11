@@ -6,11 +6,11 @@
 
 body{
     font-family: "Krub", sans-serif;
+    background-color: aliceblue;
 }
 
 
 .post{
-    /* background-color: antiquewhite; */
     width: 480px;
     margin: 50px auto;
     border-radius: 8px;
@@ -19,7 +19,6 @@ body{
 }
 
 .row1{
-    /* background-color: rgb(124, 141, 188); */
     display: flex;
     height: 32px;
     padding: 28px 4px;
@@ -46,7 +45,6 @@ body{
 .row1 input{
     line-height: 1.5;
     font-size: 16px;
-    /* flex-basis: 100%;-ขยายกล่องinput */
     flex-basis: 100%;
     border: none;
     padding: 8px;
@@ -55,7 +53,6 @@ body{
 }
 
 .row2{
-    /* background-color: antiquewhite; */
     margin-top: 4px;
     height: 32px;
     display: flex;
@@ -64,7 +61,6 @@ body{
 }
 
 .row2 >*{
-    /* border: 1px solid rgb(0, 0, 0); */
     /* flex-basis: 100%; แบ่งพื้นที่ให้เท่าๆกัน */
     flex-basis: 100%;
     cursor: pointer;
